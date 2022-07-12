@@ -31,6 +31,15 @@ main {
   position: relative;
   background-color: #eee;
 }
+
+.step-num {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+  background-color: #FF9A4B;
+}
+
 .step-img1 {
   height: 150px;
   background-image: url(img/flow01.png);
@@ -79,17 +88,15 @@ main {
     width: 90%;
 
     padding: 10px;
-    position: relative;
     margin: 20px auto;
     background-color: #eee;
-  }
+     }
   .step-img1 {
     height: 150px;
     background-image: url(img/flow01.png);
     background-position: bottom;
     background-size: cover;
-  }
-
+   }
   .step-img2 {
     height: 150px;
     background-image: url(img/flow02.png);
